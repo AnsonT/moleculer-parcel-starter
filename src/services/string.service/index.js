@@ -14,15 +14,15 @@ function aa () {
 }
 
 @service()
-class math extends Service {
+class string extends Service {
   @action({
     params: {
-      a: 'number',
-      b: 'number'
+      a: 'string',
+      b: 'string'
     }
   })
-  add ({ params: { a, b } }) {
+  concat ({ params: { a, b } }) {
     return a + b
   }
 }
-export default math
+export default string
