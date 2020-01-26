@@ -28,6 +28,7 @@
     "webpack-cli": "^3"
   },
   "dependencies": {
+    "babel-plugin-parameter-decorator": "^1.0.15",
     "log4js": "^6.1.0",
     "moleculer": "^0.13.12",
     "moleculer-repl": "^0.6.2",

@@ -5,23 +5,10 @@ import {
   param
 } from 'moleculer-service-decorators'
 
-function aa () {
-  console.log('aa')
-  return param(({ ...args }) => {
-    console.dir(args)
-    return (a) => a
-  })
-}
-
 @service()
 class string extends Service {
-  @action({
-    params: {
-      a: 'string',
-      b: 'string'
-    }
-  })
-  concat ({ params: { a, b } }) {
+  @action()
+  concat (@param({ type: 'string' })a, @param({ type: 'string' })b) {
     return a + b
   }
 }

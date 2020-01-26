@@ -5,23 +5,11 @@ import {
   param
 } from 'moleculer-service-decorators'
 
-function aa () {
-  console.log('aa')
-  return param(({ ...args }) => {
-    console.dir(args)
-    return (a) => a
-  })
-}
-
 @service()
 class math extends Service {
-  @action({
-    params: {
-      a: 'number',
-      b: 'number'
-    }
-  })
-  add ({ params: { a, b } }) {
+  @action()
+  add (@param({ type: 'number'}) a,
+       @param({ type: 'number'}) b) {
     return a + b
   }
 }

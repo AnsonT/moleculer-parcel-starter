@@ -1645,6 +1645,11 @@ babel-plugin-jest-hoist@^24.9.0:
   dependencies:
     "@types/babel__traverse" "^7.0.6"
 
+babel-plugin-parameter-decorator@^1.0.15:
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/babel-plugin-parameter-decorator/-/babel-plugin-parameter-decorator-1.0.15.tgz#26d38b64a97e0dbda3b09224b7839e04e9cb9a2c"
+  integrity sha512-yyBpvopjscQiPw9lS0lgLfw+aIy1lciOsKhmexf2MOIz/qMvhemyl4w0kqfH4u/UX57kon3NDfUvr4moMP78xQ==
+
 babel-plugin-syntax-class-properties@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-class-properties/-/babel-plugin-syntax-class-properties-6.13.0.tgz#d7eb23b79a317f8543962c505b827c7d6cac27de"
