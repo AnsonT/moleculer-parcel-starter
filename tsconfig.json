@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
       "experimentalDecorators": true,
-      "allowJs": true
-  }
+      "allowJs": true,
+      "baseUrl": "./src",
+      "paths": {
+        "~*": ["./*"]
+      },
+  },
+  "include": ["src/**/*"]
 }
