@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "babel-plugin-parameter-decorator": "^1.0.15",
-    "log4js": "^6.1.0",
+    "log4js": "^6.4.0",
     "moleculer": "^0.14.8",
     "moleculer-repl": "^0.6.2",
     "moleculer-service-decorators": "^1.0.4",
